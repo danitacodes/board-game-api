@@ -6,14 +6,21 @@ let boardGame = {
     'monopoly': {
         'yearIntroduced': 1935,
         'minOfPlayers': 2,
+        'maxOfPlayers': 8,
         'ageRange': '7 and up'
     },
     'game of life': {
         'yearIntroduced': 1960,
         'minOfPlayers': 2,
+        'maxOfPlayers': 4,
         'ageRange': '8 and up'
     },
-
+    'clue': {
+        'yearIntroduced': 1949,
+        'minOfPlayers': 3,
+        'maxOfPlayers': 6,
+        'ageRange': '8 and up'
+    }
 }
 //GET ROUTE
 app.get('/', (req, res) => {
